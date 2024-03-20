@@ -11,7 +11,7 @@ const CostDisplay: React.FC = () => {
     <div>
       ผลประโยชน์ที่ได้รับ
       <div>
-        {costData.baseSumAssured > 0 ? "ทุนประกันชีวิต:" + costData.baseSumAssured : null}
+        {costData.baseSumAssured > 0 ? "ทุนประกันชีวิต:" + costData.baseSumAssured + 'บาท' : null} 
       </div>
     </div>
   );

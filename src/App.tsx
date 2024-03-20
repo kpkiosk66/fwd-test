@@ -6,11 +6,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="wrapper">
-        <div className="col">
+      <div className="grid grid-cols-2">
+        <div >
           <UserForm />
         </div>
-        <div className="col end">
+        <div >
           <CostDisplay />
         </div>
       </div>
